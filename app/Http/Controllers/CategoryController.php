@@ -49,15 +49,7 @@ class CategoryController extends Controller
     }
 
     public function chart_category() {
-       /* $Categories_chart = Category::toBase()->get();
-       // return view('chart.google-bar-chart',['Categories_chart' => $Categories_chart]);
-        
-        $date = Category::where('created_at','')->get();
-    	$date_count = count($date);    	
-   
-    	
-        return view('chart.google-bar-chart',
-                ['Categories_chart' => $Categories_chart , 'date_count'=>$date_count]);*/
+      
 
     $viewer = Category::select(DB::raw("count(id) as count"))  
         ->orderBy("created_at")  

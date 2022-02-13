@@ -19,11 +19,11 @@
     <div class="row justify-content-left">
         
        <ul>
-          <li><a href="{{ route('post.list') }}" class="">list post </a></li> 
-          <li><a href="{{ route('post.add') }}" class="">create a post </a></li> 
-          <li><a href="{{ route('category.list') }}" class="">list category </a> </li> 
-          <li><a href="{{ route('category.add') }}" class="">create a category </a></li> 
-          <li class="su-menu" > List chart
+          <li><a href="{{ route('post.list') }}" class="">liste des animaux </a></li> 
+          <li><a href="{{ route('post.add') }}" class="">creer un animal </a></li> 
+          <li><a href="{{ route('category.list') }}" class="">categorie animal </a> </li> 
+          <li><a href="{{ route('category.add') }}" class="">creer le categorie d animal </a></li> 
+          <li class="su-menu" > Liste de chart
             <a href="/google-bar-chart" class="" style="li.su-menu a{ display:block }"> +chart category/date </a>  
           <a href="/google-bar-chart-post" class="">+chart post/user par date  </a> </li> 
 

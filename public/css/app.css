@@ -10963,3 +10963,17 @@ a.text-dark:focus {
 }
 
 li.su-menu a{ display:block }
+
+tr.title-table {
+  background: black;
+  color: white;
+}
+
+.col.title-website {
+  text-align: center;
+  padding: 16px;
+  /* border: 1px solid; */
+  font-size: 46px;
+  background-color: aquamarine;
+  margin: 20px 0;
+}

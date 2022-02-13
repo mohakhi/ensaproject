@@ -6,7 +6,9 @@
     margin-top: 40px;
   }
 </style>
-<div class="">
+<div class="container">
+  <div class="row">
+
   @if(session()->get('success'))
     <div class="alert alert-success">
       {{ session()->get('success') }}  
@@ -14,7 +16,7 @@
   @endif
   <table class="table table-striped">
     <thead>
-        <tr>
+        <tr class="title-table">
           <td>ID</td>
           <td>category name </td>
           
@@ -39,5 +41,7 @@
         @endforeach
     </tbody>
   </table>
-<div>
+</div>
+
+</div>
 @endsection
